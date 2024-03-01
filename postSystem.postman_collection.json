@@ -1,0 +1,114 @@
+{
+	"info": {
+		"_postman_id": "b6a95b4e-ecc3-41e3-aa0a-ffb73fcc404f",
+		"name": "postSystem",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32248950"
+	},
+	"item": [
+		{
+			"name": "https://post-curd-2.onrender.com/api/postdata",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://post-curd-2.onrender.com/api/postdata",
+					"protocol": "https",
+					"host": [
+						"post-curd-2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"postdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://post-curd-2.onrender.com/api/postdata",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"work from home\",\r\n    \"content\":\"writing\",\r\n    \"author_id\":\"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://post-curd-2.onrender.com/api/postdata",
+					"protocol": "https",
+					"host": [
+						"post-curd-2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"postdata"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://post-curd-2.onrender.com/api/postdata/65e1f5025993a931ca3a524e",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\":\"bjabcabcbcbc\",\r\n    \"content\":\"writing\",\r\n    \"author_id\":\"4\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://post-curd-2.onrender.com/api/postdata/65e1f5025993a931ca3a524e",
+					"protocol": "https",
+					"host": [
+						"post-curd-2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"postdata",
+						"65e1f5025993a931ca3a524e"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://post-curd-2.onrender.com/api/postdata/65e1f5025993a931ca3a524e",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "https://post-curd-2.onrender.com/api/postdata/65e1f5025993a931ca3a524e",
+					"protocol": "https",
+					"host": [
+						"post-curd-2",
+						"onrender",
+						"com"
+					],
+					"path": [
+						"api",
+						"postdata",
+						"65e1f5025993a931ca3a524e"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
